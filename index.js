@@ -19,7 +19,7 @@ app.set('view engine', 'ejs');
 // Sessions (Em projetos grandes, mudar o storage do session para p Redis)
 
 app.use(session({
-    secret: "qualquercoisa", cookie: {maxAge: 36000000 }
+    secret: "wsodosisajdjdfsisi", cookie: {maxAge: 36000000 }
 }))
 
 // Static
