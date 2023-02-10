@@ -37,7 +37,7 @@ connection
     }).catch((err) => {console.log(err)})
 
 
-
+// Rotas secundárias
 app.use('/', categoriesController);
 app.use('/', articlesController);
 app.use('/', usersController);
